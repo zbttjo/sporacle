@@ -1,0 +1,47 @@
+.matches-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.matches-top{
+    width: 100%;
+    height: 50px;
+    background-color: blanchedalmond;
+}
+.matches-center{
+    display: flex;
+    align-content: stretch;
+    width: 100%;
+    height: 100%;
+}
+.matches-calendar{
+    width: 20%;
+    height: 100%;
+    background-color: brown;
+}
+.matches-teams{
+    width: 60%;
+    height: 100%;
+    background-color: blue;
+}
+.matches-teams1{
+    width: 50%;
+    height: 100%;
+    background-color: aliceblue;
+}
+.matches-teams2{
+    width: 50%;
+    height: 100%;
+
+}
+.matches-other{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(199, 191, 191);
+}
+.matches-bottom{
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
+}

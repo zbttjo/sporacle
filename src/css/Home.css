@@ -1,0 +1,246 @@
+.home-container{
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+.presentation-section{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #3e415a;
+}
+.img-section{
+    height: 100%;
+}
+.img-section img{
+    height: 100%;
+}
+
+.info-section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.news-section{
+    width: 800px;
+    height: 450px;
+    margin: 0px 100px 10px 10px;
+    background-color: rgb(21, 21, 59);
+    border-radius: 3%;
+    box-shadow: rgb(0, 0, 0) 0px 3px 6px, rgb(0, 0, 0) 0px 3px 6px;}
+.news-title{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news-title h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+.news-img{
+    height: 80%;
+    width: 100%;
+
+}
+.news-img img{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+
+.games-section{
+    width: 400px;
+    height: 450px;
+    display: block;
+    margin-right: 10px;
+
+}
+.game1{
+    width: 100%;
+    height: 220px;
+    background-color: #1d1919;
+    margin-bottom: 10px;
+    border-radius: 6%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -6px 0px inset;
+    display: block;
+}
+/*Card 1: Teams logo & live*/
+
+.game1-top{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.team1-logo{
+    height: 50px;
+    width: 50px;
+    margin-right: -15px;
+    border-radius: 100%;
+    background-color: rgb(111, 114, 168);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team1-logo img{
+    max-height: 40px;
+    max-width: 40px;
+}
+.team2-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team2-logo img{
+    max-height: 40px;
+    max-width: 40px;
+}
+.live-minute{
+    margin-left: 200px;
+    text-align: center;
+    display: block;
+    height: 100%;
+    width: 100px;
+}
+.live-minute p{
+    color: crimson;
+    margin-top: 10px;
+    font-family: 'Fjalla One', sans-serif;
+}
+/*Card1: Teams Name*/
+.game1-center{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(23, 23, 51);
+    display: flex;
+    align-items: center;
+}
+.teams-name{
+    display: block;
+}
+.teams-score{
+    display: block;
+    margin-left: 20px;
+}
+.game1-center p{
+    margin: 15px;
+    color: aliceblue;
+    font-family: 'Fjalla One', sans-serif;
+}
+.game1-bottom{
+    text-align: center;
+}
+.game1-bottom li{
+    margin-top: 15px;
+}
+.game1-bottom li a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5%;
+    color: rgb(255, 255, 255);
+    background-color:rgb(168, 13, 44);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.game2{
+    width: 100%;
+    height: 220px;
+    background-color: #1d1919;
+    border-radius: 6%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -6px 0px inset;
+}
+.game2-top{
+    width: 100%;
+    height: 30px;
+    color: aliceblue;
+}
+.game2-top p{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 6px;
+    font-size: larger;
+}
+.game2-center{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    background-color: rgb(23, 23, 51);
+}
+.game2-center p{
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+
+}
+.game2-team1{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.team1-logo2{
+    height: 80px;
+    width: 80px;
+    border-radius: 20%;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team1-logo2 img{
+    max-width: 70px;
+    max-height: 70px;
+}
+.game2-separation{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.separation{
+    height: 10px;
+    width: 50px;
+    background-color: aliceblue;
+}
+.game2-team2{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.team2-logo2{
+    height: 80px;
+    width: 80px;
+    border-radius: 20%;
+    background-color: aliceblue;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team2-logo2 img{
+    max-height: 70px;
+    max-width: 70px;
+}
